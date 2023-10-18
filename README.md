@@ -16,10 +16,18 @@ The optimal strategy for epistasis detection is to evaluate all possible SNP com
 
 <h2>TECHNOLOGIES USED</h2>
 <p align="center">
-  <img src="https://github.com/Miguel491/episdet-transformer/blob/main/InteloneAPI.jpg" width="400" height="240" >
+  <img src="https://github.com/Miguel491/EpisDet-transformer/blob/main/InteloneAPI.jpg" width="400" height="240" >
 </p>
 
 The [Intel® OneAPI toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/toolkits.html#gs.3btkxe), [Intel® OpenVINO toolkit](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html) enables models to be trained in a more efficient way and results in faster training times.
 
 <h2>METHODOLOGY</h2>
 A transformer neural network is implemented for high order epistasis detection. Interpretation metrics (e.g., attention scores) are analyzed post-training to identify SNPs that may be relevant to the observed phenotype. The model is trained on simulated datasets to test its capabilities for epistasis detection.
+
+<h2>PLATFORMS</h2>
+
+To test OpenVINO, model inference is done on a 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz. The results show that, for the proposed transformer model, inference takes approximately 3.73 seconds using TensorFlow functions, while with OpenVINO's optimized model, this time is reduced to 1.57 seconds, a 2.37x speedup.
+
+<p align="center">
+  <img src="https://github.com/Miguel491/EpisDet-transformer/blob/main/InferenceTime.png" width="400" height="240" >
+</p>
