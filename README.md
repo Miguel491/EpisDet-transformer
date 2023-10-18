@@ -29,5 +29,5 @@ A transformer neural network is implemented for high order epistasis detection. 
 To test OpenVINO, model inference is done on a 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz. The results show that, for the proposed transformer model, inference takes approximately 3.73 seconds using TensorFlow functions, while with OpenVINO's optimized model, this time is reduced to 1.57 seconds, a 2.37x speedup.
 
 <p align="center">
-  <img src="https://github.com/Miguel491/EpisDet-transformer/blob/main/InferenceTime.png" width="400" height="240" >
+  <img src="https://github.com/Miguel491/EpisDet-transformer/blob/main/InferenceTime.png" width="1000" height="100" >
 </p>
