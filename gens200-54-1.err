@@ -1,0 +1,71 @@
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_reset_if_to: lab5p12 [11]: pmixp_coll_ring.c:741: 0x7f9fac042410: collective timeout seq=0
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_log: lab5p12 [11]: pmixp_coll.c:286: Dumping collective state
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p12 [11]: pmixp_coll_ring.c:759: 0x7f9fac042410: COLL_FENCE_RING state seq=0
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p12 [11]: pmixp_coll_ring.c:762: my peerid: 11:lab5p12
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p12 [11]: pmixp_coll_ring.c:769: neighbor id: next 12:lab5p13, prev 10:lab5p11
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p12 [11]: pmixp_coll_ring.c:778: Context ptr=0x7f9fac042488, #0, in-use=0
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p12 [11]: pmixp_coll_ring.c:778: Context ptr=0x7f9fac0424c0, #1, in-use=0
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p12 [11]: pmixp_coll_ring.c:778: Context ptr=0x7f9fac0424f8, #2, in-use=1
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p12 [11]: pmixp_coll_ring.c:787: 	 seq=0 contribs: loc=1/prev=3/fwd=3
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p12 [11]: pmixp_coll_ring.c:791: 	 neighbor contribs [14]:
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p12 [11]: pmixp_coll_ring.c:824: 		 done contrib: lab5p[1,13-14]
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p12 [11]: pmixp_coll_ring.c:826: 		 wait contrib: lab5p[2-11]
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p12 [11]: pmixp_coll_ring.c:828: 	 status=PMIXP_COLL_RING_PROGRESS
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p12 [11]: pmixp_coll_ring.c:831: 	 buf (offset/size): 1042/4654
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_reset_if_to: lab5p1 [0]: pmixp_coll_ring.c:741: 0x7ff9180429d0: collective timeout seq=0
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_log: lab5p1 [0]: pmixp_coll.c:286: Dumping collective state
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p1 [0]: pmixp_coll_ring.c:759: 0x7ff9180429d0: COLL_FENCE_RING state seq=0
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p1 [0]: pmixp_coll_ring.c:762: my peerid: 0:lab5p1
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p1 [0]: pmixp_coll_ring.c:769: neighbor id: next 1:lab5p2, prev 13:lab5p14
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p1 [0]: pmixp_coll_ring.c:778: Context ptr=0x7ff918042a48, #0, in-use=0
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p1 [0]: pmixp_coll_ring.c:778: Context ptr=0x7ff918042a80, #1, in-use=0
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p1 [0]: pmixp_coll_ring.c:778: Context ptr=0x7ff918042ab8, #2, in-use=1
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p1 [0]: pmixp_coll_ring.c:787: 	 seq=0 contribs: loc=1/prev=3/fwd=4
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p1 [0]: pmixp_coll_ring.c:791: 	 neighbor contribs [14]:
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p1 [0]: pmixp_coll_ring.c:824: 		 done contrib: lab5p[12-14]
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p1 [0]: pmixp_coll_ring.c:826: 		 wait contrib: lab5p[2-11]
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p1 [0]: pmixp_coll_ring.c:828: 	 status=PMIXP_COLL_RING_PROGRESS
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p1 [0]: pmixp_coll_ring.c:831: 	 buf (offset/size): 1042/6110
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_reset_if_to: lab5p14 [13]: pmixp_coll_ring.c:741: 0x7f8f6003cf20: collective timeout seq=0
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_log: lab5p14 [13]: pmixp_coll.c:286: Dumping collective state
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p14 [13]: pmixp_coll_ring.c:759: 0x7f8f6003cf20: COLL_FENCE_RING state seq=0
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p14 [13]: pmixp_coll_ring.c:762: my peerid: 13:lab5p14
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p14 [13]: pmixp_coll_ring.c:769: neighbor id: next 0:lab5p1, prev 12:lab5p13
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p14 [13]: pmixp_coll_ring.c:778: Context ptr=0x7f8f6003cf98, #0, in-use=0
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p14 [13]: pmixp_coll_ring.c:778: Context ptr=0x7f8f6003cfd0, #1, in-use=0
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p14 [13]: pmixp_coll_ring.c:778: Context ptr=0x7f8f6003d008, #2, in-use=1
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p14 [13]: pmixp_coll_ring.c:787: 	 seq=0 contribs: loc=1/prev=3/fwd=3
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p14 [13]: pmixp_coll_ring.c:791: 	 neighbor contribs [14]:
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p14 [13]: pmixp_coll_ring.c:824: 		 done contrib: lab5p[1,12-13]
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p14 [13]: pmixp_coll_ring.c:826: 		 wait contrib: lab5p[2-11]
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p14 [13]: pmixp_coll_ring.c:828: 	 status=PMIXP_COLL_RING_PROGRESS
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p14 [13]: pmixp_coll_ring.c:831: 	 buf (offset/size): 1042/3996
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_reset_if_to: lab5p13 [12]: pmixp_coll_ring.c:741: 0x7fd1b4006890: collective timeout seq=0
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_log: lab5p13 [12]: pmixp_coll.c:286: Dumping collective state
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p13 [12]: pmixp_coll_ring.c:759: 0x7fd1b4006890: COLL_FENCE_RING state seq=0
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p13 [12]: pmixp_coll_ring.c:762: my peerid: 12:lab5p13
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p13 [12]: pmixp_coll_ring.c:769: neighbor id: next 13:lab5p14, prev 11:lab5p12
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p13 [12]: pmixp_coll_ring.c:778: Context ptr=0x7fd1b4006908, #0, in-use=0
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p13 [12]: pmixp_coll_ring.c:778: Context ptr=0x7fd1b4006940, #1, in-use=0
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p13 [12]: pmixp_coll_ring.c:778: Context ptr=0x7fd1b4006978, #2, in-use=1
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p13 [12]: pmixp_coll_ring.c:787: 	 seq=0 contribs: loc=1/prev=3/fwd=3
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p13 [12]: pmixp_coll_ring.c:791: 	 neighbor contribs [14]:
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p13 [12]: pmixp_coll_ring.c:824: 		 done contrib: lab5p[1,12,14]
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p13 [12]: pmixp_coll_ring.c:826: 		 wait contrib: lab5p[2-11]
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p13 [12]: pmixp_coll_ring.c:828: 	 status=PMIXP_COLL_RING_PROGRESS
+slurmstepd: error:  mpi/pmix_v5: pmixp_coll_ring_log: lab5p13 [12]: pmixp_coll_ring.c:831: 	 buf (offset/size): 1042/4654
+slurmstepd: error:  mpi/pmix_v5: pmixp_p2p_send: lab5p12 [11]: pmixp_utils.c:467: send failed, rc=2, exceeded the retry limit
+slurmstepd: error:  mpi/pmix_v5: _slurm_send: lab5p12 [11]: pmixp_server.c:1581: Cannot send message to /var/spool/slurmd/stepd.slurm.pmix.34732.0, size = 62, hostlist:
+(null)
+slurmstepd: error:  mpi/pmix_v5: pmixp_p2p_send: lab5p12 [11]: pmixp_utils.c:467: send failed, rc=2, exceeded the retry limit
+slurmstepd: error:  mpi/pmix_v5: _slurm_send: lab5p12 [11]: pmixp_server.c:1581: Cannot send message to /var/spool/slurmd/stepd.slurm.pmix.34732.0, size = 82, hostlist:
+(null)
+srun: error: timeout waiting for task launch, started 14 of 54 tasks
+srun: StepId=34732.0 aborted before step completely launched.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 34732.0 ON lab5p1 CANCELLED AT 2024-03-31T17:25:47 ***
+srun: error: lab5p1: tasks 0-3: Killed
+srun: error: lab5p14: tasks 51-53: Killed
+srun: error: lab5p13: tasks 48-50: Killed
+srun: error: lab5p12: tasks 44-47: Killed
+srun: error: Timed out waiting for job step to complete
