@@ -1,0 +1,7 @@
+slurmstepd: error: Detected 1 oom_kill event in StepId=34729.1. Some of the step tasks have been OOM Killed.
+srun: error: lab5p7: task 7: Out Of Memory
+slurmstepd: error:  mpi/pmix_v5: _errhandler: lab5p7 [1]: pmixp_client_v2.c:211: Error handler invoked: status = -61, source = [slurm.pmix.34729.1:7]
+slurmstepd: error: *** STEP 34729.1 ON lab5p6 CANCELLED AT 2024-03-31T17:10:51 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: lab5p8: tasks 8-11: Killed
+srun: error: lab5p6: tasks 0-3: Killed
